@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>EfreiChat</title>
+</head>
+<body>
+  <img src="https://talentsdunumerique.com/sites/default/files/public/logo-efrei-paris-2018.jpg" 
+     width="500" 
+     height="200" >
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1> EfreiChat</h1> 
+      <a href="index.html" class="btn">Quitter Room</a>
+    </header>
+    <main class="chat-main">
+      <div class="chat-sidebar">
+        <h3> Utilisateur dans le chat:</h3>
+        <h2 id="room-name"><!--JavaScript--></h2>
+        <!-- <h3> Utilisateurs</h3>
+        <ul id="users"> -->
+          <!-- <li>test</li>
+          <li>test2</li>
+          <li>test3</li>
+          <li>test4</li>
+          <li>test5</li> -->
+        </ul>
+      </div>
+      <div class="chat-messages"> <!--wraper-->
+					<!-- <!-- <div class="message">
+						<p class="meta">nom <span>heure</span></p>
+						<p class="text">
+							Hermione Reparo Recurvite wingardium leviosa tarrentallegra soleil jonquille momosa que ce vilain rat en jaune soit
+						</p>
+					</div> -->
+					<div class="message">
+						<p class="meta">
+						<p class="text">
+							Covid oblige, nous vous rappelons que le port du masque est obligatoire lors des portes ouvertes sur la campus
+						</p>
+					</div> -->
+      </div>
+    </main>
+    <div class="chat-form-container">
+      <form id="chat-form"> <!--chat form ici-->
+        <input
+          id="msg"
+          type="text"
+          placeholder="Ecrire Message"
+          required
+          autocomplete="off"
+        />
+        <button class="btn"> Envoyer</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js" 
+  integrity="sha512-f0AM6x08kthGzMyDHZjBgjBCPp8V8ovlHYCI1jMkhViTeX3MykGCf/DnN1khWss/6d1105eAG4TniSKy6UhZrw==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>EfreiChat App</title>
+	</head>
+	<body>
+		<img src="https://talentsdunumerique.com/sites/default/files/public/logo-efrei-paris-2018.jpg" 
+		width="500" 
+		height="200" >
+		<div class="join-container">
+			<header class="join-header">
+				<h1> EfreiChat</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html"> <!--chat html, ça summit à lui-->
+					<div class="form-control">
+						<label for="username">Pseudo Utilisateur</label> <!--grace au input toutes les info de utilisateurs va changer genre l'url par exemple-->
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="ecrivez votre pseudo..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Room</label>
+						<select name="room" id="room">
+							<option value="Dev">Dev</option>
+							<option value="Cybersecurite">Cybersecurite</option>
+							<option value="Marketing">Marketing</option>
+							<option value="Data">Data</option>
+							<option value="Buisness">Buisness</option>
+							<option value="UX & CX Innovation">UX & CX Innovation</option>
+						</select>
+					</div>
+					<button type="submit" class="btn"> >>>>> Rejoindre Chat <<<<< </button>
+					<img src="https://pbs.twimg.com/media/EpRkyafXMAIHSg4.jpg"
+					width="400px"
+					height="200px">
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
