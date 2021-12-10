@@ -1,8 +1,21 @@
-# my-webchat
+# My-webchat
 
-# header H1
-## header H2
-### header H3
-#### header H4
-##### header H5
-###### header H6
+## Introduction
+
+> Just a simple project to train with socket.io
+
+## Code Samples
+
+Use this in your package.json (after you do the installation instruction)
+> "scripts": {
+    "start": "node server",
+    "dev":"nodemon server"
+  },
+
+## Installation
+
+- npm init
+- npm install express
+- npm install socket.io
+- npm moment
+- npm install -D nodemon
